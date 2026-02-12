@@ -153,43 +153,19 @@ Esta arquitectura permite que:
 
 ### 5.1 Ventajas y limitaciones
 
-**XML:**
-
--   _Ventajas:_ Simplicidad, madurez tecnológica, amplio ecosistema de herramientas
--   _Limitaciones:_ Ausencia de semántica formal, verbosidad, dificultad para integrar datos heterogéneos
-
-**RDF:**
-
--   _Ventajas:_ Modelo semántico flexible, integración de datos distribuidos, base de la Web Semántica
--   _Limitaciones:_ Expresividad lógica limitada, curva de aprendizaje, complejidad en consultas complejas
-
-**OWL:**
-
--   _Ventajas:_ Máxima expresividad, razonamiento automatizado, formalización rigurosa del conocimiento
--   _Limitaciones:_ Alta complejidad computacional, dificultad de desarrollo, desafíos de escalabilidad en ontologías masivas
+| Tecnología | Ventajas | Limitaciones |
+|------------|----------|--------------|
+| **XML** | Simplicidad, madurez tecnológica y amplio ecosistema de herramientas. | Ausencia de semántica formal, verbosidad y dificultad para integrar datos heterogéneos. |
+| **RDF** | Modelo semántico flexible, integración de datos distribuidos y fundamento de la Web Semántica. | Expresividad lógica limitada, curva de aprendizaje pronunciada y complejidad en consultas avanzadas. |
+| **OWL** | Alta expresividad, soporte para razonamiento automatizado y formalización rigurosa del conocimiento. | Elevada complejidad computacional, dificultad en el desarrollo y desafíos de escalabilidad en ontologías de gran tamaño. |
 
 ### 5.2 Aplicaciones reales
 
-**XML:**
-
--   Configuración de sistemas
--   Intercambio de datos B2B
--   Documentos estructurados (XHTML, DocBook)
--   Servicios web (SOAP)
-
-**RDF:**
-
--   DBpedia y Wikidata (bases de conocimiento abiertas)
--   Schema.org (marcado semántico web)
--   Datos enlazados (Linked Open Data)
--   Metadatos bibliográficos (Dublin Core)
-
-**OWL:**
-
--   Ontologías biomédicas (Gene Ontology, SNOMED CT)
--   Sistemas de recomendación semánticos
--   Gestión del conocimiento empresarial
--   Razonamiento en Internet de las Cosas (IoT)
+| Tecnología | Aplicaciones |
+|------------|--------------|
+| **XML** | Configuración de sistemas.<br>Intercambio de datos B2B.<br>Documentos estructurados (XHTML, DocBook).<br>Servicios web (SOAP). |
+| **RDF** | DBpedia y Wikidata (bases de conocimiento abiertas).<br>Schema.org (marcado semántico web).<br>Datos enlazados (Linked Open Data).<br>Metadatos bibliográficos (Dublin Core). |
+| **OWL** | Ontologías biomédicas (Gene Ontology, SNOMED CT).<br>Sistemas de recomendación semánticos.<br>Gestión del conocimiento empresarial.<br>Razonamiento en Internet de las Cosas (IoT). |
 
 ### 5.3 Impacto en sistemas computacionales
 
